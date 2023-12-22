@@ -6,6 +6,7 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:finalexam/main.dart';
+import 'package:finalexam/pages/sample_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/material.dart';
@@ -24,7 +25,7 @@ void main() async {
       ])
       // Choose the page here that I need to test
       ..addScenario(
-        widget: const MyApp(),
+        widget: EarPodsUI(),
         name: 'sc page',
       );
     //flutter test --update-goldens
